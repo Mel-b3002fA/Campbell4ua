@@ -7,14 +7,16 @@
     --grey:#2f2f2f;
 }
 
-hmtl{
-    margin: 0;
+html, body {
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 .name{
     background-color: #edecec;
     width: 100vw;
     height: 74vh;
-    margin-left: -10px;
 }
 
 .name-wrapper{
@@ -68,5 +70,5 @@ hmtl{
     background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210344.jpg);
     background-size: 110% auto;
     width: 100vw;
-    height: 26vh;
+    height: 30vh;
 }
