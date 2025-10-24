@@ -7,19 +7,22 @@
     --grey:#2f2f2f;
 }
 
+hmtl{
+    margin: 0;
+}
 .name{
-    background-color: #fff;
-    width: 94vw;
-    height: 60vh;
-    margin-left: 50px;
-    margin-top: -20px;
-
+    background-color: #edecec;
+    width: 100vw;
+    height: 74vh;
+    margin-left: -10px;
 }
 
 .name-wrapper{
   display: flex;
     flex-direction: column;
     width: 88.3vw;
+    margin-left: 50px;
+    margin-top: -20px;
 }
 
 .name-div{
@@ -39,14 +42,31 @@
     display: inline;
     font-size: 10px;
     text-transform: uppercase;
-    padding-left: 100px;
+    padding-left: 200px;
     font-family: outfit;
     letter-spacing: 2px;
     font-weight: 300;
+      color: var(--grey);
 }
 
 
 .name-tertiary-div{
      text-align: start;
      max-width: 30vw;
+}
+
+.name-tertiary-div-item{
+    font-size: 8px;
+    text-transform: uppercase;
+    font-family: outfit;
+    letter-spacing: 2px;
+    font-weight: 300;
+      color: var(--grey);
+}
+
+.landing-img{
+    background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210344.jpg);
+    background-size: 110% auto;
+    width: 100vw;
+    height: 26vh;
 }
