@@ -108,7 +108,7 @@ html, body {
 }
 
 .creator-header-wrapper{
-    border-top:1px solid  #2f2f2f;
+    border-top:1px solid #2f2f2f1d;
     display: flex;
     justify-content: space-between;
     margin-left: 5vw;
@@ -229,8 +229,44 @@ background-size: auto 70%;
      font-family: outfit;
    text-transform: uppercase;
    font-weight: 300;
-   font-size: 20px;
-   letter-spacing: 2px;
+   font-size: 15px;
+   letter-spacing: 4px;
    color: var(--grey);
    padding-bottom: 200px;
+}
+
+.yt-about{
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.about-header{
+     font-family: outfit;
+   text-transform: uppercase;
+   font-weight: 320;
+   font-size: 24px;
+   letter-spacing: 4px;
+   color: var(--grey);
+   border-bottom: 1px solid #2f2f2f1d;
+   margin-left: 70px;
+   margin-right: 70px;
+   padding-bottom: 20px;
+}
+
+.yt-about-second-div{
+    margin-left: 70px;
+    margin-right: 70px;
+      font-family: outfit;
+   font-weight: 320;
+   font-size: 16.3px;
+   color: var(--grey);
+   width: 40vw;
+   margin-top: 30px;
+   padding-right: 30px;
+}
+
+.yt-about>div{
+    display: flex;
+    justify-content: end;
 }
