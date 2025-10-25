@@ -96,7 +96,7 @@ html, body {
 }
 
 .creator-header-name{
-  font-size: 20px;
+  font-size: 15px;
     margin: 0px;
     font-family: Lexend Deca;
     letter-spacing: 9px;
@@ -110,11 +110,12 @@ html, body {
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .creator-header-category{
-   font-size: 8px;
+   font-size: 9px;
+   font-weight: 700;
     text-transform: uppercase;
     font-family: outfit;
     letter-spacing: 2px;
@@ -123,7 +124,78 @@ html, body {
       padding-left: 13px;
 }
 
+
+.creator-wrapper-text{
+    margin-right: 100px;
+}
+
+.creator-secondary-div>h2{
+   font-family: outfit;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 2px;
+   color: var(--grey);
+}
+
+.creator-secondary-div>div{
+   font-family: outfit;
+   font-weight: 300;
+   font-size: 13px;
+   color: var(--grey);
+   line-height: 30%;
+}
+
+
+.creator-quartery-div{
+    width: 15vw;
+    padding-top: 30px;
+}
+
+.creator-quartery-div>p{
+   font-family: outfit;
+   font-weight: 300;
+   font-size: 13px;
+   color: var(--grey);
+}
 .creator-header-list{
     display: flex;
     align-items: center;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.creator-main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 70px;
+}
+
+.creator-main-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.creator-wrapper-image{
+    width: 30vw;
+    height: 70vh;
+     background-size: 100% auto;
+    background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210350.jpg);
+}
+
+.creator-tertiary-div{
+    display: flex;
+    width: 170px;
+    margin-top: 13vh;
+    justify-content: space-between;
+}
+
+.creator-tertiary-div>div{
+    font-family: outfit;
+   font-weight: 300;
+   font-size: 11.3px;
+   color: var(--grey);
 }
