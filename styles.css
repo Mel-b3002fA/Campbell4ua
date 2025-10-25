@@ -72,7 +72,7 @@ html, body {
     background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210344.jpg);
     background-size: 110% auto;
     width: 100vw;
-    height: 70vh;
+    height: 29vh;
 }
 
 
@@ -88,4 +88,42 @@ html, body {
     letter-spacing: 2px;
     font-weight: 300;
       color: var(--grey);
+}
+
+
+.creator-body{
+    background-color: #edecec;
+}
+
+.creator-header-name{
+  font-size: 20px;
+    margin: 0px;
+    font-family: Lexend Deca;
+    letter-spacing: 9px;
+    color: var(--grey);
+}
+
+.creator-header-wrapper{
+    border-top:1px solid  #2f2f2f;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.creator-header-category{
+   font-size: 8px;
+    text-transform: uppercase;
+    font-family: outfit;
+    letter-spacing: 2px;
+    font-weight: 300;
+      color: var(--grey);
+      padding-left: 13px;
+}
+
+.creator-header-list{
+    display: flex;
+    align-items: center;
 }
