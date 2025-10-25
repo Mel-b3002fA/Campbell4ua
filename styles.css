@@ -15,9 +15,13 @@ html, body {
   padding: 0;
 }
 .name{
-    background-color: #edecec;
-    width: 100vw;
-    height: 74vh;
+    background-color: #edecec; 
+     background-image: url("./img/nbfy.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: auto 100%;
+  width: 100vw;
+  height: 70vh;
 }
 
 .name-wrapper{
@@ -72,7 +76,7 @@ html, body {
     background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210344.jpg);
     background-size: 110% auto;
     width: 100vw;
-    height: 29vh;
+    height: 33vh;
 }
 
 
@@ -198,4 +202,35 @@ html, body {
    font-weight: 300;
    font-size: 11.3px;
    color: var(--grey);
+}
+
+
+.yt-body{
+    background-color: #edecec;
+}
+.yt-header{
+    background-color: #edecec;
+    padding-bottom: 20px;
+}
+.yt-landing-div{
+    background-image: url("./img/\ vubcfosp.png");
+  background-repeat: no-repeat;
+background-size: auto 70%;
+  background-position: center top;
+     background-color: #edecec; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yt-landing-text{
+     font-family: outfit;
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 20px;
+   letter-spacing: 2px;
+   color: var(--grey);
+   padding-bottom: 200px;
 }
