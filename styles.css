@@ -289,6 +289,10 @@ background-size: auto 70%;
     margin-top: 10px;
 }
 
+.thanks-list{
+    display: flex;
+    flex-direction: row;
+}
 .thanks-item-img1{
     width: 400px;
     height: 300px;
@@ -328,8 +332,12 @@ background-size: auto 70%;
    font-size: 15px;
    letter-spacing: 4px;
    color: var(--grey);
-   padding-bottom: 200px;
    margin-top: 200px;
    text-align: center;
+
 }
 
+
+.thanks-item-img{
+    margin-bottom: 120px;
+}
