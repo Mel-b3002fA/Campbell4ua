@@ -338,7 +338,23 @@ background-size: auto 70%;
 
 }
 
+.thanks-item>h1{
+   font-family: outfit;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 2px;
+   color: var(--grey);
 
-.thanks-item-img{
-    margin-bottom: 120px;
 }
+
+.thanks-item>p{
+   font-family: outfit;
+   font-weight: 300;
+   font-size: 13px;
+   color: var(--grey);
+   line-height: 30%;
+
+}
+
+
