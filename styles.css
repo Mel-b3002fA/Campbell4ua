@@ -292,6 +292,7 @@ background-size: auto 70%;
 .thanks-list{
     display: flex;
     flex-direction: row;
+    gap:5vw;
 }
 .thanks-item-img1{
     width: 400px;
