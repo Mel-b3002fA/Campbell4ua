@@ -107,9 +107,7 @@ html, body {
     color: var(--grey);
 }
 
-.yt-landing-text:hover{
-    
-}
+
 
 .creator-header-wrapper{
     border-top:1px solid #2f2f2f1d;
@@ -274,3 +272,64 @@ background-size: auto 70%;
     display: flex;
     justify-content: end;
 }
+
+
+
+.thanks{
+    background-color: #edecec; 
+}
+.thanks-main{
+    margin-top: 200px;
+    text-align: center;
+}
+.thanks-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thanks-item-img1{
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11198503-removebg-preview\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.thanks-item-img2{
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/gdwr-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.thanks-item-img3{
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/nspdi-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.thanks-text{
+    max-width: 60vw;
+   margin-left: 20vw;
+   font-family: outfit;
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 15px;
+   letter-spacing: 4px;
+   color: var(--grey);
+   padding-bottom: 200px;
+   margin-top: 200px;
+   text-align: center;
+}
+
