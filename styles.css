@@ -326,18 +326,35 @@ background-size: auto 70%;
 
 .thanks-text{
     max-width: 60vw;
-   margin-left: 20vw;
+    max-height: 70vh;
    font-family: outfit;
    text-transform: uppercase;
    font-weight: 300;
    font-size: 15px;
    letter-spacing: 4px;
    color: var(--grey);
-   margin-top: 200px;
    text-align: center;
 
 }
 
+.thanks-text>div{
+    background-image: url(./img/Screenshot\ 2025-11-03\ at\ 10.52.26.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      height: 100vh;
+background-size: auto 80%;
+  background-position: center top;
+
+}
+
+
+
+.thanks-text>div>p{
+    padding-top: 200px;
+    width: 30vw;
+    line-height: 30px;
+    padding-left: 35vw;
+}
 .thanks-item>h1{
    font-family: outfit;
    text-transform: uppercase;
