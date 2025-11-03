@@ -376,3 +376,23 @@ background-size: auto 80%;
 }
 
 
+.footer-list-item{
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: outfit;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: var(--grey);
+    padding-left: 13px;
+}
+
+.footer-list{
+    border-top:1px solid #2f2f2f1d;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    padding-top: 20px;
+}
