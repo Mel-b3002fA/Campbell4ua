@@ -1,0 +1,408 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    color: var(--grey);
+}
+
+:root{
+    --grey:#2f2f2f;
+}
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.name{
+    background-color: #edecec; 
+     background-image: url("./img/bfd.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: auto 100%;
+  width: 100vw;
+  height: 70vh;
+}
+
+.name-wrapper{
+  display: flex;
+    flex-direction: column;
+    width: 88.3vw;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.name-div{
+    font-size: 160px;
+    margin: 0px;
+    font-family: Lexend Deca;
+    letter-spacing: 9px;
+    color: var(--grey);
+}
+
+.name-secondary-div{
+     text-align: end;
+    display: inline
+}
+
+.name-secondary-div-item{
+    display: inline;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-left: 200px;
+    font-family: open sans;
+    letter-spacing: 2px;
+    font-weight: 300;
+      color: var(--grey);
+}
+
+
+.name-tertiary-div{
+     text-align: start;
+     max-width: 30vw;
+}
+
+.name-tertiary-div-item{
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: open sans;
+    letter-spacing: 2px;
+    line-height: 16px;
+    font-weight: 300;
+      color: var(--grey);
+      padding-left: 13px;
+}
+
+.landing-img{
+    background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210344\ \(1\).jpg);
+    background-size: 110% auto;
+    width: 100vw;
+    height: 33vh;
+}
+
+
+.main-img-comment{
+ padding-left: 80px;
+ border: 1px solid black;
+}
+
+.main-img-comment-para{
+    font-size: 8px;
+    text-transform: uppercase;
+    font-family: open sans;
+    letter-spacing: 2px;
+    font-weight: 300;
+      color: var(--grey);
+}
+
+
+.creator-body{
+    background-color: #edecec;
+}
+
+.creator-header-name{
+  font-size: 15px;
+    margin: 0px;
+    font-family: Lexend Deca;
+    letter-spacing: 9px;
+    color: var(--grey);
+}
+
+
+
+.creator-header-wrapper{
+    border-top:1px solid #2f2f2f1d;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.creator-header-category{
+   font-size: 9px;
+   font-weight: 700;
+    text-transform: uppercase;
+    font-family: open sans;
+    letter-spacing: 2px;
+    font-weight: 300;
+      color: var(--grey);
+      padding-left: 13px;
+}
+
+
+.creator-wrapper-text{
+    margin-right: 100px;
+}
+
+.creator-secondary-div>h2{
+   font-family: open sans;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 2px;
+   color: var(--grey);
+}
+
+.creator-secondary-div>div{
+   font-family: open sans;
+   font-weight: 300;
+   font-size: 13px;
+   color: var(--grey);
+   line-height: 30%;
+}
+
+
+.creator-quartery-div{
+    width: 15vw;
+    padding-top: 30px;
+}
+
+.creator-quartery-div>p{
+   font-family: open sans;
+   font-weight: 300;
+   font-size: 13px;
+   color: var(--grey);
+}
+.creator-header-list{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.creator-main{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 70px;
+}
+
+.creator-main-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.creator-wrapper-image{
+    width: 30vw;
+    height: 70vh;
+     background-size: 100% auto;
+    background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11210350\ \(1\).jpg);
+}
+
+.creator-tertiary-div{
+    display: flex;
+    width: 170px;
+    margin-top: 21vh;
+    justify-content: space-between;
+}
+
+.creator-tertiary-div>div{
+    font-family: open sans;
+   font-weight: 300;
+   font-size: 11.3px;
+   color: var(--grey);
+}
+
+
+.yt-body{
+    background-color: #edecec;
+}
+.yt-header{
+    background-color: #edecec;
+    padding-bottom: 20px;
+}
+.yt-landing-div{
+    background-image: url("./img/мвчу.png");
+  background-repeat: no-repeat;
+background-size: auto 70%;
+  background-position: center top;
+     background-color: #edecec; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yt-landing-text{
+     font-family: open sans;
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 15px;
+   letter-spacing: 4px;
+   color: var(--grey);
+   padding-bottom: 200px;
+}
+
+.yt-about{
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.about-header{
+     font-family: open sans;
+   text-transform: uppercase;
+   font-weight: 320;
+   font-size: 24px;
+   letter-spacing: 4px;
+   color: var(--grey);
+   border-bottom: 1px solid #2f2f2f1d;
+   margin-left: 70px;
+   margin-right: 70px;
+   padding-bottom: 20px;
+}
+
+.yt-about-second-div{
+    margin-left: 70px;
+    margin-right: 70px;
+      font-family: open sans;
+   font-weight: 320;
+   font-size: 16.3px;
+   color: var(--grey);
+   width: 40vw;
+   margin-top: 30px;
+   padding-right: 30px;
+}
+
+.yt-about>div{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.thanks{
+    background-color: #edecec; 
+}
+.thanks-main{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 180px;
+}
+.thanks-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thanks-list{
+    display: flex;
+    flex-direction: row;
+    gap:5vw;
+}
+.thanks-item-img1{
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/gdwr-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.thanks-item-img2{
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/pexels-fayette-reynolds-m-s-181007507-11198503__1_-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.thanks-item-img3{
+    width: 400px;
+    height: 300px;
+    background-image: url(./img/nspdi-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.thanks-text{
+    max-width: 60vw;
+    max-height: 70vh;
+   font-family: open sans;
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 15px;
+   letter-spacing: 4px;
+   color: var(--grey);
+   text-align: center;
+
+}
+
+.thanks-text>div{
+    background-image: url(./img/Screenshot\ 2025-11-03\ at\ 10.52.26.png);
+      background-repeat: no-repeat;
+      width: 100vw;
+      height: 100vh;
+background-size: auto 80%;
+  background-position: center top;
+
+}
+
+
+
+.thanks-text>div>p{
+    padding-top: 210px;
+    width: 30vw;
+    line-height: 30px;
+    padding-left: 35vw;
+}
+.thanks-item>h1{
+   font-family: open sans;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 20px;
+   letter-spacing: 2px;
+   color: var(--grey);
+
+}
+
+.thanks-item>p{
+   font-family: open sans;
+   font-weight: 300;
+   font-size: 13px;
+   color: var(--grey);
+   line-height: 100%;
+
+}
+
+
+.footer{
+    margin-bottom: 20px;
+}
+
+
+.footer-list-item{
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: open sans;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: var(--grey);
+    padding-left: 13px;
+}
+
+.footer-list-item{
+    padding-left: 0px;
+}
+
+.footer-list{
+    border-top:1px solid #2f2f2f1d;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 30px;
+    padding-top: 20px;
+}
